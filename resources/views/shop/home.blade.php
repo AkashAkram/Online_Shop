@@ -14,7 +14,7 @@
                     <div class="col-md-9">
 
 
-                        @include('subview.slider1')
+                        @include('subview.slider')
 
                         <div class="row">
                             @foreach($categories as $cat)

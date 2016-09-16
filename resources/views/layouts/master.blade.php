@@ -145,10 +145,10 @@
 
     $(document).ready(function(){
         $('.slider1').bxSlider({
-            interval:500,
-            slideWidth: 200,
-            minSlides: 4,
-            maxSlides: 4,
+            interval:00,
+            slideWidth: 500,
+            minSlides: 3,
+            maxSlides: 2,
             startSlide: 0,
             slideMargin: 10
         });
