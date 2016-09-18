@@ -16,6 +16,7 @@
                     <div class="col-md-9">
                         <div class="row">
                             <div class="col-lg-12">
+                                <h3 class="m_1">Add New Product</h3>
                                 <form action="{!! action('ShopController@postproduct') !!}" method="post" enctype="multipart/form-data">
                                     {{ csrf_field() }}
 

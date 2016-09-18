@@ -496,12 +496,14 @@ ul.quick_access li.check{
 	padding:0em 0px 2em;
 }
 h3.menu_head{
-	background: #F26866;
-	padding: 2em 0 2em 3em;
-	color: #fff;
+	background: #007869;
+	padding: 15px 15px 15px 40px;
+	color: #03ECB7;
 	text-transform: uppercase;
-	font-size: 0.85em;
-	margin: 0;
+	font-size: 18px;
+	font-weight: bolder;
+	margin: 20px 0 0 0;
+
 }
 
 /*     TopNav   */
@@ -531,12 +533,12 @@ ul.top-nav li a:hover{
 }
 
 .margin-top{
-	margin-top:30px;
+	margin-top:40px;
 }
 ul.side-nav{
 	padding:0;
 	list-style:none;
-	background:#F78C54;
+	background: #ffffff;
 }
 ul.side-nav li:hover {
 	background:#333;
@@ -544,8 +546,8 @@ ul.side-nav li:hover {
 	
 }
 ul.side-nav li a{
-	color:#333;
-	font-size:0.85em;
+	color:#007869;
+	font-size:14px;
 	text-transform:uppercase;
 	font-weight:bold;
 	display: block;
@@ -575,7 +577,7 @@ ul.side-nav li a:hover{
 }
 .tags{
 	list-style:none;
-	background:#72A9D0;
+	background:transparent;
 	margin-top:2em;
 	padding:2em;
 	font-family: 'Roboto', sans-serif;
@@ -595,9 +597,9 @@ ul.tags_links li {
 	margin: 8px 3px;
 }
 ul.tags_links li a {
-	color:#333;
+	color:#ffffff;
 	font-size:0.8125em;
-	background: #9BD2F7;
+	background: #F78C54;
 	padding: 5px 10px;
 }
 ul.tags_links li a:hover{
@@ -628,7 +630,7 @@ ul.article_links li{
 	margin-bottom:7px;
 }
 ul.article_links li a{
-	color:#DFF0D8;
+	color:#007869;
 	font-size:0.8125em;
 	line-height:1.8em;
 	font-family: 'Roboto', sans-serif;
@@ -732,7 +734,8 @@ h3.m_1{
 	font-size: 1.5em;
 	text-transform: uppercase;
 	font-weight: bold;
-	margin-top:2em;
+
+
 
 }
 h3.m_2 {

@@ -14,7 +14,7 @@
 </div>
 --}}
 
-<div class="menu_box margin-top">
+<div class="menu_box">
 
     <h3 class="menu_head">Categories</h3>
 

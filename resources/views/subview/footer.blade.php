@@ -1,44 +1,4 @@
-<div class="container">
-    <div class="brands">
-        <ul class="brand_icons">
-            <li><img src='../serfhouse/images/icon1.jpg' class="img-responsive" alt=""/></li>
-            <li><img src='../serfhouse/images/icon2.jpg' class="img-responsive" alt=""/></li>
-            <li><img src='../serfhouse/images/icon3.jpg' class="img-responsive" alt=""/></li>
-            <li><img src='../serfhouse/images/icon4.jpg' class="img-responsive" alt=""/></li>
-            <li><img src='../serfhouse/images/icon5.jpg' class="img-responsive" alt=""/></li>
-            <li><img src='../serfhouse/images/icon6.jpg' class="img-responsive" alt=""/></li>
-            <li class="last"><img src='../serfhouse/images/icon7.jpg' class="img-responsive" alt=""/></li>
-        </ul>
-    </div>
-</div>
-<div class="container">
-    <div class="instagram_top">
-        <div class="instagram text-center">
-            <h3><i class="insta_icon"> </i> Instagram feed:&nbsp;<span class="small">#Surfhouse</span></h3>
-        </div>
-        <ul class="instagram_grid">
-            <li><a class="popup-with-zoom-anim" href="#small-dialog1"><img src="../serfhouse/images/i1.jpg" class="img-responsive"alt=""/></a></li>
-            <li><a class="popup-with-zoom-anim" href="#small-dialog1"><img src="../serfhouse/images/i2.jpg" class="img-responsive" alt=""/></a></li>
-            <li><a class="popup-with-zoom-anim" href="#small-dialog1"><img src="../serfhouse/images/i3.jpg" class="img-responsive" alt=""/></a></li>
-            <li><a class="popup-with-zoom-anim" href="#small-dialog1"><img src="../serfhouse/images/i4.jpg" class="img-responsive" alt=""/></a></li>
-            <li><a class="popup-with-zoom-anim" href="#small-dialog1"><img src="../serfhouse/images/i5.jpg" class="img-responsive" alt=""/></a></li>
-            <li class="last_instagram"><a class="popup-with-zoom-anim" href="#small-dialog1"><img src="../serfhouse/images/i6.jpg" class="img-responsive" alt=""/></a></li>
-            <div class="clearfix"></div>
-            <div id="small-dialog1" class="mfp-hide">
-                <div class="pop_up">
-                    <h4>A Sample Photo Stream</h4>
-                    <img src="../serfhouse/images/i_zoom.jpg" class="img-responsive" alt=""/> </div>
-            </div>
-        </ul>
-    </div>
-    <ul class="footer_social">
-        <li><a href="#"> <i class="fb"> </i> </a></li>
-        <li><a href="#"><i class="tw"> </i> </a></li>
-        <li><a href="#"><i class="pin"> </i> </a></li>
-        <div class="clearfix"></div>
-    </ul>
-</div>
-</div>
+
 <div class="footer">
     <div class="container">
         <div class="footer-grid">
