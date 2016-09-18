@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-
+        <!-- Old page -->
 @section('content')
 
     <div class="main">
@@ -42,17 +42,25 @@
                                 <ul id="etalage">
                                     <li>
                                         <a href="optionallink.html">
-                                            <img class="etalage_thumb_image" src="/surfhouse/product_images/{!! $product[0]->default_image !!}" class="img-responsive" />
-                                            <img class="etalage_source_image" src="/surfhouse/product_images/{!! $product[0]->default_image !!}" class="img-responsive" />
+                                            <img class="etalage_thumb_image"
+                                                 src="/surfhouse/product_images/{!! $product[0]->default_image !!}"
+                                                 class="img-responsive"/>
+                                            <img class="etalage_source_image"
+                                                 src="/surfhouse/product_images/{!! $product[0]->default_image !!}"
+                                                 class="img-responsive"/>
                                         </a>
                                     </li>
                                     <li>
-                                        <img class="etalage_thumb_image" src="/surfhouse/site_images/noimage.jpg" class="img-responsive" />
-                                        <img class="etalage_source_image" src="/surfhouse/site_images/noimage.jpg" class="img-responsive" />
+                                        <img class="etalage_thumb_image" src="/surfhouse/site_images/noimage.jpg"
+                                             class="img-responsive"/>
+                                        <img class="etalage_source_image" src="/surfhouse/site_images/noimage.jpg"
+                                             class="img-responsive"/>
                                     </li>
                                     <li>
-                                        <img class="etalage_thumb_image" src="/surfhouse/site_images/noimage.jpg" class="img-responsive" />
-                                        <img class="etalage_source_image" src="/surfhouse/site_images/noimage.jpg" class="img-responsive" />
+                                        <img class="etalage_thumb_image" src="/surfhouse/site_images/noimage.jpg"
+                                             class="img-responsive"/>
+                                        <img class="etalage_source_image" src="/surfhouse/site_images/noimage.jpg"
+                                             class="img-responsive"/>
                                     </li>
 
                                 </ul>
@@ -62,10 +70,11 @@
 
                                 <div class="btn_form">
                                     <form action="/cart" method="post" enctype="multipart/form-data">
-                                        {{ csrf_field() }}
+
                                         <h1>{!! $product[0]->product_name !!}</h1>
                                         <ul class="rating">
-                                            <li><a class="product-rate" href="#"> <label> </label></a> <span> </span></li>
+                                            <li><a class="product-rate" href="#"> <label> </label></a> <span> </span>
+                                            </li>
                                             <li><a href="#">1 Review(s) Add Review</a></li>
                                             <div class="clearfix"></div>
                                         </ul>
@@ -78,17 +87,21 @@
                                         <ul class="size">
                                             <h3>Size</h3>
                                             <select name="sizeList">
-                                                @foreach($sizes as $size)
-                                                    <option value="{!! $size->id !!}">{!! $size->name !!}</option>
-                                                @endforeach
+                                                <option value="s">s</option>
+                                                <option value="m">m</option>
+                                                <option value="l">l</option>
+                                                <option value="xl">xl</option>
+                                                <option value="xxl">xxl</option>
                                             </select>
                                         </ul>
                                         <ul class="size">
                                             <span>Color Available:</span>
                                             <select name="colorList">
-                                                @foreach($colors as $color)
-                                                    <option value="{!! $color->id !!}">{!! $color->name !!}</option>
-                                                @endforeach
+                                                <option value="r">red</option>
+                                                <option value="b">blue</option>
+                                                <option value="g">green</option>
+                                                <option value="w">white</option>
+                                                <option value="o">orenge</option>
                                             </select>
                                         </ul>
                                         <ul class="product-qty">
@@ -111,6 +124,8 @@
 
                                         <input type="submit" value="Add to Cart" name="cart">
                                     </form>
+
+
                                 </div>
                             </div>
                             <div class="clearfix"></div>
@@ -122,8 +137,7 @@
                                     </li>
                                     <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Additional Information</span>
                                     </li>
-                                    <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>Reviews</span>
-                                    </li>
+
                                     <div class="clear"></div>
                                 </ul>
                                 <div class="resp-tabs-container">
@@ -174,29 +188,32 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
-                                        <ul class="tab_list">
-                                            <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                                                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                                                    aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
-                                                    exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
-                                                    commodo consequat</a></li>
-                                            <li><a href="#">augue duis dolore te feugait nulla facilisi. Nam liber
-                                                    tempor cum soluta nobis eleifend option congue nihil imperdiet
-                                                    doming id quod mazim placerat facer possim assum. Typi non habent
-                                                    claritatem insitam; est usus legentis in iis qui facit eorum
-                                                    claritatem. Investigatione</a></li>
-                                            <li><a href="#">claritatem insitam; est usus legentis in iis qui facit eorum
-                                                    claritatem. Investigationes demonstraverunt lectores leg</a></li>
-                                            <li><a href="#">Mirum est notare quam littera gothica, quam nunc putamus
-                                                    parum claram, anteposuerit litterarum formas humanitatis per seacula
-                                                    quarta decima et quinta decima. Eodem modo typi, qui nunc nobis
-                                                    videntur parum clari, fiant sollemnes in futurum.</a></li>
-                                        </ul>
-                                    </div>
                                 </div>
                             </div>
+                            <!--Fb Plugin like & Share-->
+                            <div class="fb-like"
+                                 data-href="http://shop.akashakram.xyz/product/{!! $product[0]->id !!}"
+                                 data-layout="standard"
+                                 data-action="like"
+                                 data-size="large"
+                                 data-show-faces="true"
+                                 data-share="true">
+
+                            </div>
+
+
+
+
                         </div>
+
+                        <!--Fb Plugin Comment-->
+                        <div class="fb-comments"
+                             data-href="http://shop.akashakram.com/product/{!! $product[0]->id !!}"
+                             data-numposts="5">
+
+                        </div>
+
+
                         <h3 class="like">You Might Also Like</h3>
                         <ul id="flexiselDemo3">
                             <li><img src="images/pic11.jpg"/>

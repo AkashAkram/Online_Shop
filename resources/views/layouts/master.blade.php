@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>@yield('title') E-Shop</title>
+    <title>@yield('title') Akash's Online Shopping Place</title>
 
     <!-- Styles -->
 
@@ -36,7 +36,29 @@
         ]); ?>
     </script>
 </head>
+
+
+
+
 <body>
+
+
+
+
+
+<div id="fb-root"></div>
+<script>
+    (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s);js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=846706098766577";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -63,8 +85,8 @@
 
                 <!-- Right Side Of Navbar -->
                 <ul class="nav navbar-nav navbar-right">
-                		<li><a href="{{ url('/add') }}">Add product</a></li>
-                		<li><a href="{{ url('/cart') }}">Cart</a></li>
+                        <li><a href="{{ url('/add') }}">Add product</a></li>
+                        <li><a href="{{ url('/cart') }}">Cart</a></li>
                     <!-- Authentication Links -->
                     @if (Auth::guest())
                         <li><a href="{{ url('/login') }}">Login</a></li>
@@ -128,19 +150,19 @@
 <script src="{!! asset('surfhouse/js/jquery.flexisel.js') !!}"></script>
 
 <script>
-	$(document).ready(function() {
-		$('.popup-with-zoom-anim').magnificPopup({
-			type: 'inline',
-			fixedContentPos: false,
-			fixedBgPos: true,
-			overflowY: 'auto',
-			closeBtnInside: true,
-			preloader: false,
-			midClick: true,
-			removalDelay: 300,
-			mainClass: 'my-mfp-zoom-in'
-		});
-	});
+    $(document).ready(function() {
+        $('.popup-with-zoom-anim').magnificPopup({
+            type: 'inline',
+            fixedContentPos: false,
+            fixedBgPos: true,
+            overflowY: 'auto',
+            closeBtnInside: true,
+            preloader: false,
+            midClick: true,
+            removalDelay: 300,
+            mainClass: 'my-mfp-zoom-in'
+        });
+    });
 
 
     $(document).ready(function(){

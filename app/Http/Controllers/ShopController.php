@@ -30,11 +30,8 @@ class ShopController extends Controller
         return view('shop.home', compact('categories'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+
+    
     public function addproduct()
     {
         $categories = $this->cat;
@@ -133,7 +130,7 @@ class ShopController extends Controller
     {
         $categories = $this->cat;
         $product = Product::where('id', $id)->get();
-        return view('shop.singleproduct1', compact('categories', 'product'));
+        return view('shop.singleproduct', compact('categories', 'product'));
     }
 
     public function cart()
