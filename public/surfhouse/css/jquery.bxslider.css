@@ -22,8 +22,11 @@
 }
 
 .bx-wrapper img {
-	max-width: 100%;
+	/*max-width: 100%;*/
 	display: block;
+	width: 260px;
+	height: 315px;
+	border: 1px solid #c9c9c9;
 }
 
 /** THEME
@@ -32,10 +35,10 @@
 .bx-wrapper .bx-viewport {
 	-moz-box-shadow: 0 0 5px #ccc;
 	-webkit-box-shadow: 0 0 5px #ccc;
-	box-shadow: 0 0 5px #ccc;
-	border:  5px solid #fff;
-	left: -5px;
-	background: #fff;
+
+	border:  0px solid #000000;
+	left: 5px;
+	background: #DFF0D8;
 	
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
@@ -105,12 +108,12 @@
 
 .bx-wrapper .bx-prev {
 	left: 10px;
-	background: url(images/controls.png) no-repeat 0 -32px;
+	background: url(public/surfhouse/site_images/controls.png) no-repeat 0 -32px;
 }
 
 .bx-wrapper .bx-next {
 	right: 10px;
-	background: url(images/controls.png) no-repeat -43px -32px;
+	background: url(public/surfhouse/site_images/controls.png) no-repeat -43px -32px;
 }
 
 .bx-wrapper .bx-prev:hover {
@@ -190,15 +193,17 @@
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	background: #666\9;
-	background: rgba(80, 80, 80, 0.75);
+	background: transparent;
+
 	width: 100%;
 }
 
 .bx-wrapper .bx-caption span {
+
 	color: #fff;
 	font-family: Arial;
 	display: block;
 	font-size: .85em;
 	padding: 10px;
+	background-color: transparent;
 }

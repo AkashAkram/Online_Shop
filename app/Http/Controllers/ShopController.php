@@ -27,6 +27,7 @@ class ShopController extends Controller
     public function index()
     {
         $categories = $this->cat;
+
         return view('shop.home', compact('categories'));
     }
 

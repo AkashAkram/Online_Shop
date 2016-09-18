@@ -496,7 +496,7 @@ ul.quick_access li.check{
 	padding:0em 0px 2em;
 }
 h3.menu_head{
-	background: #3866B6;
+	background: #F26866;
 	padding: 2em 0 2em 3em;
 	color: #fff;
 	text-transform: uppercase;
@@ -531,12 +531,12 @@ ul.top-nav li a:hover{
 }
 
 .margin-top{
-	margin-top:60px;
+	margin-top:30px;
 }
 ul.side-nav{
 	padding:0;
 	list-style:none;
-	background:#efefef;
+	background:#F78C54;
 }
 ul.side-nav li:hover {
 	background:#333;
@@ -558,7 +558,7 @@ ul.side-nav li a:hover{
 
 .side_banner {
 	position: relative;
-	margin-top:2em;
+	margin-top:0px;
 }
 .side_banner .banner_holder {
 	position: absolute;
@@ -575,7 +575,7 @@ ul.side-nav li a:hover{
 }
 .tags{
 	list-style:none;
-	background:#fff;
+	background:#72A9D0;
 	margin-top:2em;
 	padding:2em;
 	font-family: 'Roboto', sans-serif;
@@ -597,7 +597,7 @@ ul.tags_links li {
 ul.tags_links li a {
 	color:#333;
 	font-size:0.8125em;
-	background: #e9e9e9;
+	background: #9BD2F7;
 	padding: 5px 10px;
 }
 ul.tags_links li a:hover{
@@ -628,7 +628,7 @@ ul.article_links li{
 	margin-bottom:7px;
 }
 ul.article_links li a{
-	color:#999;
+	color:#DFF0D8;
 	font-size:0.8125em;
 	line-height:1.8em;
 	font-family: 'Roboto', sans-serif;
@@ -650,11 +650,13 @@ ul.article_links li a{
 	margin-left: 0;
 }
 .inner_content {
-	background: #fff;
+	background: #FFFFFF;
 	position: relative;
 }
 .product_image {
-	border:10px solid #fff;
+	border:1px solid #c9c9c9;
+
+
 }
 .sale-box, .sale-box1{
 	position: absolute;
@@ -726,11 +728,12 @@ span.reducedfrom {
 }
 h3.m_1{
 	font-family: 'Roboto', sans-serif;
-	color: #707070;
+	color: #4CAF50;
 	font-size: 1.5em;
 	text-transform: uppercase;
 	font-weight: bold;
 	margin-top:2em;
+
 }
 h3.m_2 {
 	font-family: 'Roboto', sans-serif;

@@ -1,4 +1,20 @@
-<div class="menu_box">
+{{--
+
+<div class="side_banner">
+    <div class="banner_img">
+        <img src="{!! asset('surfhouse/site_images/logo2.png') !!}" class="img-responsive"
+             alt="" width="200" />
+        <div class="banner_holder">
+            <h3>Now <br>
+                is <br>
+                Open!</h3>
+        </div>
+    </div>
+
+</div>
+--}}
+
+<div class="menu_box margin-top">
 
     <h3 class="menu_head">Categories</h3>
 
@@ -8,18 +24,7 @@
         @endforeach
     </ul>
 </div>
-<div class="side_banner">
-    <div class="banner_img">
-        <img src="{!! asset('surfhouse/site_images/logo2.png') !!}" class="img-responsive"
-                                 alt="" width="200" />
-        <div class="banner_holder">
-            <h3>Now <br>
-                is <br>
-                Open!</h3>
-        </div>
-    </div>
 
-</div>
 <div class="tags">
     <h4 class="tag_head">Tags Widget</h4>
     <ul class="tags_links">

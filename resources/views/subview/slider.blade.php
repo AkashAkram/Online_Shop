@@ -1,6 +1,9 @@
+<h3 class="m_1">New Arrival</h3>
         	<div class="slider1">
             @for($i=0 ; $i < 3 ; $i++ )
-              <div class="slide"><a href=""><img src="{!! asset('surfhouse/pro_images/men/T-shirt/ts3.jpg') !!}" height="250"></a></div>
+              <div class="slide"><a href=""><img src="{!! asset('surfhouse/pro_images/men/T-shirt/ts3.jpg') !!}" height="250">
+                  <div class="bx-caption"><span>Caption</span></div>
+                  </a></div>
               <div class="slide"><a href=""><img src="{!! asset('surfhouse/pro_images/women/saari/sr1.jpg') !!}" height="250"></a></div>
               <div class="slide"><a href=""><img src="{!! asset('surfhouse/pro_images/men/T-shirt/ts4.jpg') !!}" height="250"></a></div>
               <div class="slide"><a href=""><img src="{!! asset('surfhouse/pro_images/women/saari/sr4.jpg') !!}" height="250"></a></div>
