@@ -27,6 +27,7 @@
 	width: 260px;
 	height: 315px;
 	border: 1px solid #c9c9c9;
+	box-shadow: 0 5px 10px rgba(0,0,0,.20);
 }
 
 /** THEME

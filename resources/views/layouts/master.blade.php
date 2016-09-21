@@ -167,11 +167,11 @@
     $(document).ready(function(){
         $('.slider1').bxSlider({
             interval:00,
-            slideWidth: 500,
+            slideWidth: 1000,
             minSlides: 3,
             maxSlides: 2,
             startSlide: 0,
-            slideMargin: 10
+            slideMargin: 25
         });
     });
 
