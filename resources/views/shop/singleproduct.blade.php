@@ -69,7 +69,7 @@
                             <div class="cont1 span_2_of_a1">
 
                                 <div class="btn_form">
-                                    <form action="/cart" method="post" enctype="multipart/form-data">
+                                    <form action="/addToCart/{!! $product[0]->id !!}" method="post" enctype="multipart/form-data">
 
                                         <h1>{!! $product[0]->product_name !!}</h1>
                                         <ul class="rating">

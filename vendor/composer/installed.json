@@ -3533,5 +3533,57 @@
         ],
         "description": "Symfony DomCrawler Component",
         "homepage": "https://symfony.com"
+    },
+    {
+        "name": "gloudemans/shoppingcart",
+        "version": "2.2.1",
+        "version_normalized": "2.2.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Crinsane/LaravelShoppingcart.git",
+            "reference": "476f248e8d2848a97ab6f9a94fecd9741171605b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Crinsane/LaravelShoppingcart/zipball/476f248e8d2848a97ab6f9a94fecd9741171605b",
+            "reference": "476f248e8d2848a97ab6f9a94fecd9741171605b",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/events": "5.1.*|5.2.*|5.3.*",
+            "illuminate/session": "5.1.*|5.2.*|5.3.*",
+            "illuminate/support": "5.1.*|5.2.*|5.3.*"
+        },
+        "require-dev": {
+            "mockery/mockery": "~0.9.0",
+            "orchestra/testbench": "~3.0",
+            "phpunit/phpunit": "~4.0"
+        },
+        "suggest": {
+            "gloudemans/notify": "Simple flash notifications for Laravel"
+        },
+        "time": "2016-09-05 06:26:29",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Gloudemans\\Shoppingcart\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Rob Gloudemans",
+                "email": "info@robgloudemans.nl"
+            }
+        ],
+        "description": "Laravel Shoppingcart",
+        "keywords": [
+            "laravel",
+            "shoppingcart"
+        ]
     }
 ]

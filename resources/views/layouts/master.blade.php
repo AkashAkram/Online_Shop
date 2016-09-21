@@ -85,7 +85,7 @@
             <!-- Right Side Of Navbar -->
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="{{ url('/add') }}">Add product</a></li>
-                <li><a href="{{ url('/cart') }}">Cart</a></li>
+                <li><a href="{{ url('/cart') }}"><span class="fa fa-remove"></span>Cart</a></li>
                 <!-- Authentication Links -->
                 @if (Auth::guest())
                     <li><a href="{{ url('/login') }}">Login</a></li>

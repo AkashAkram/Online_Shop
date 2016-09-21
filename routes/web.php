@@ -21,13 +21,19 @@ Route::get('/home', 'HomeController@index');
 
 
 
-
 //---------ShopController -------------
 
-Route::get('/', 'ShopController@Index');
+Route::get('/', 'ShopController@index');
 Route::get('add', 'ShopController@addproduct');
 Route::post('add', 'ShopController@postproduct');
 Route::get('cat/{id}', 'ShopController@showcategory');
 Route::get('product/{id}', 'ShopController@singleproduct');
-Route::post('/cart', 'ShopController@cart');
+//Route::post('/cart', 'ShopController@cart');
 
+
+
+//-------------CartController--------------//
+
+Route::post('/addToCart/{productId}', 'CartController@addToCart');
+Route::get('/removeItem/{productId}', 'CartController@removeItem');
+Route::get('/cart', 'CartController@showCart');
