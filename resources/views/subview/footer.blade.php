@@ -49,15 +49,9 @@
             <h3>About Us</h3>
             <p class="footer_desc">Diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,.</p>
             <p class="f_text">Phone:  &nbsp;&nbsp;&nbsp;00-250-2131</p>
-            <p class="email">Email: &nbsp;&nbsp;&nbsp;<span>info(at)Surfhouse.com</span></p>
+            <p class="email">Email: &nbsp;&nbsp;&nbsp;<span>akashakram@outlook.com</span></p>
         </div>
         <div class="clearfix"> </div>
     </div>
 </div>
-<div class="footer_bottom">
-    <div class="container">
-        <div class="copy">
-            <p>&copy; 2014 Template by <a href="http://w3layouts.com" target="_blank"> w3layouts</a></p>
-        </div>
-    </div>
-</div>
+
