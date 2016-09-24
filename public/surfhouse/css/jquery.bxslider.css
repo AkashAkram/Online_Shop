@@ -39,7 +39,7 @@
 
 	border:  0px solid #000000;
 	left: 5px;
-	background: #DFF0D8;
+	background: transparent;
 	
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
