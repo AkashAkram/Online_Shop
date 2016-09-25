@@ -1,0 +1,125 @@
+/*------------ Color Palette ------------*/
+/*
+LIGHT ORANGE: #e4644b
+DARK ORANGE: #d05942
+DARK BROWN: #484141
+Menu text: #f7f1e3
+Submenu text: #ae9f9f
+*/
+
+/*------------ General Settings ------------*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+    font-family: "Montserrat", sans-serif;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    letter-spacing: .2px;
+    background: url("../images/bg.jpg") top center repeat;
+}
+
+ul {
+    width: 276px;
+    list-style: none;
+}
+
+li {
+    cursor: pointer;
+}
+
+/*------------ Main Menu ------------*/
+.mainmenu {
+    font-size: 16px;
+    position: relative;
+    margin: 90px auto;
+    padding: 0;
+}
+
+.mainmenu > li {
+    box-sizing: border-box;
+    height: 48px;
+    color: #f7f1e3;
+    border-top: 1px solid #d05942;
+    background-color: #e4644b;
+}
+
+.mainmenu > li:first-child {
+    border-top: 0;
+    border-radius: 7px 7px 0 0;
+}
+
+.mainmenu > li:last-child {
+    border-radius: 0 0 7px 7px;
+}
+
+.mainmenu > li span {
+    line-height: 48px;
+    display: block;
+}
+
+.mainmenu > li .icon {
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    padding: 14px 20px 0 20px;
+}
+
+.mainmenu > li .messages {
+    font-size: 11px;
+    line-height: 19px;
+    display: block;
+    float: right;
+    width: 34px;
+    height: 18px;
+    margin-top: -33px;
+    margin-right: 19px;
+    padding: 0;
+    text-align: center;
+    background: url("../images/messages.png") no-repeat;
+}
+
+.expand-triangle {
+    width: 276px;
+    height: 10px;
+    content: " ";
+}
+
+.expand-triangle img {
+    width: inherit;
+    height: inherit;
+    margin-left: -40px;
+    vertical-align: top;
+}
+
+/*------------ Sub Menu ------------*/
+.submenu {
+    font-size: 13px;
+    box-sizing: border-box;
+    content: " ";
+    color: #ae9f9f;
+}
+
+.submenu li {
+    line-height: 20px;
+    height: 35px;
+    margin-left: -40px;
+    padding-top: 11px;
+    transition: border-left 220ms ease-in;
+    border-left: solid 6px #484141;
+    background-color: #484141;
+}
+
+.submenu .chosen,
+.submenu .chosen:hover {
+    border-left: solid 6px #96d145;
+}
+
+.submenu li:hover {
+    border-left: solid 6px #d05942;
+}
+
+.submenu li span {
+    margin-left: 30px;
+}

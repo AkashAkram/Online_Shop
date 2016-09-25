@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>@yield('title') Akash's Online Shopping Place</title>
+    <title>@yield('title') Akash Akram</title>
 
     <!-- Styles -->
 
@@ -243,7 +243,7 @@
 
 </script>
 
-<script type="text/javascript" src="http://arrow.scrolltotop.com/arrow50.js"></script>
+<script type="text/javascript" src="surfhouse/js/scrolltotop.js"></script>
 
 
 </body>

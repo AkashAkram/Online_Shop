@@ -52,6 +52,8 @@
             <p class="email">Email: &nbsp;&nbsp;&nbsp;<span>akashakram@outlook.com</span></p>
         </div>
         <div class="clearfix"> </div>
+
+        
     </div>
 </div>
 

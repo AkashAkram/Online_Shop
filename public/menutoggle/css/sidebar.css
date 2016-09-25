@@ -1,0 +1,88 @@
+
+/*  Side menu main  */
+
+.mainmenu {
+  margin: 90px auto;
+  font-size: 16px;
+  position: relative;
+  padding: 0;
+}
+
+.mainmenu > li {
+  background-color: #e4644b;
+  border-top: 1px solid #d05942;
+  height: 48px;
+  color: #f7f1e3;
+  box-sizing: border-box;
+}
+
+.mainmenu > li:first-child {
+  border-radius: 7px 7px 0 0;
+  border-top: 0;
+}
+
+.mainmenu > li:last-child { border-radius: 0 0 7px 7px; }
+
+.mainmenu > li span {
+  display: block;
+  line-height: 48px;
+}
+
+.mainmenu > li .icon {
+  padding: 14px 20px 0 20px;
+  float: left;
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.mainmenu > li .messages {
+  background: url("../images/messages.png") no-repeat;
+  padding: 0;
+  margin-top: -33px;
+  margin-right: 19px;
+  float: right;
+  display: block;
+  width: 34px;
+  height: 18px;
+  text-align: center;
+  font-size: 11px;
+  line-height: 19px;
+}
+
+.expand-triangle {
+  background: url("../images/expand.gif") top left no-repeat;
+  height: 10px;
+  width: 276px;
+  content: " ";
+  margin-left: -40px;
+}
+
+
+
+
+/*      Sub menu Sidebar      */
+
+
+.submenu {
+  box-sizing: border-box;
+  color: #ae9f9f;
+  font-size: 13px;
+  content: " ";/*opacity: 0.5;*/
+}
+
+.submenu li {
+  line-height: 20px;
+  height: 35px;
+  padding-top: 11px;
+  margin-left: -40px;
+  background-color: #484141;
+  border-left: solid 6px #484141;
+  transition: border-left 220ms ease-in;
+}
+
+.submenu .chosen, .submenu .chosen:hover { border-left: solid 6px #96d145; }
+
+.submenu li:hover { border-left: solid 6px #d05942; }
+
+.submenu li span { margin-left: 30px; }
